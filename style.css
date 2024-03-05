@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.navbar {
+	background-color: #FDF2E9;
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+}
+
+main {
+	display: grid; /* Usa grid para un diseño adaptable */
+	align-items: center;
+	background-color: #F5B7B1;
+	height: calc(100vh - 70px);
+	padding: 20px;
+	text-align: center;
+
+}
+  
+.container .parrafo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.container img {
+  max-width: 100%; /* La imagen se escala proporcionalmente */
+}
+
