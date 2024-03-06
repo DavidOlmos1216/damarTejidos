@@ -6,14 +6,18 @@
 }
 
 .navbar {
-	background-color: #FDF2E9;
+	/* background-color: #FDF2E9; */
     height: 70px;
     width: 100%;
     padding: 20px;
 }
 
+.nav-item a:hover {
+    color: red;
+}
+
 main {
-	display: grid; /* Usa grid para un diseño adaptable */
+	display: grid; 
 	align-items: center;
 	background-color: #F5B7B1;
 	height: calc(100vh - 70px);
@@ -30,6 +34,14 @@ main {
 
 
 .container img {
-  max-width: 100%; /* La imagen se escala proporcionalmente */
+  max-width: 100%;
 }
 
+/* .form-control{
+	width: 500px;
+}
+ */
+/* .card img{
+	width: 250px;
+	height: 350px;
+ } */
