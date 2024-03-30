@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 	/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
@@ -23,20 +24,20 @@ main {
 	height: calc(100vh - 70px);
 	padding: 20px;
 	text-align: center;
-
 }
 
-.container .parrafo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.container {
+	
+	.parrafo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	img {
+		max-width: 100%;
+	}
 }
-
-
-.container img {
-	max-width: 100%;
-}
-
 
 .scale-down-center:hover {
 	animation: scale-down-center 0.4s;
@@ -44,10 +45,10 @@ main {
 
 @keyframes scale-down-center {
 	0% {
-		transform: scale(1)
+		transform: scale(1);
 	}
 
 	100% {
-		transform: scale(.9)
+		transform: scale(0.9);
 	}
 }
